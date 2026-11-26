@@ -1,5 +1,5 @@
 
-    bucket  = "remote-state-aws-88s-prod" # Replace with your unique bucket name
+    bucket  = "remote-state-aws-88s-prod5" # Replace with your unique bucket name
     key     = "remote-state.tfstate"
     region  = "us-east-1"
     encrypt = true
