@@ -1,16 +1,12 @@
 
 variable "environment" {
-    type = string
+  type = string
 }
 
 variable "project" {
-    default = "roboshop"
+  default = "roboshop"
 }
 
 variable "instance_type" {
-    default = {
-        dev = "t3.micro"
-        uat = "t3.small"
-        prod = "t3.medium"
-    }
+  type = string
 }
